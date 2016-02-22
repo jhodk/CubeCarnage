@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<script>
+
+function convert(e){
+before = document.getElementById('before');
+after = document.getElementById('after');
+after.value = '';
+b = before.value.toString();
+
+
+values = b.split(',');
+
+
+
+after.value += '[';
+for(j=0;j<21;j++){
+    after.value += '\'';
+
+    for(i=0;i<35;i++){
+
+    cell = values[j*35 + i];
+    console.log(cell);
+    if(cell == 1){cell = "X";}
+    if(cell == -1){cell = ".";}
+    if(cell == 0){cell = "S";}
+
+
+    after.value += cell.toString();
+
+
+        }
+    after.value += '\',\n';
+        }
+    
+
+after.value += ']';
+
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+<textarea id='before'></textarea><br>
+<textarea id='after'></textarea>
+<button type='button' onclick=convert()>Convert</button>
+
+</body>
