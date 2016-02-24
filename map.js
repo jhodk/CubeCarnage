@@ -276,8 +276,8 @@ maps['Sir Coddington'] = ['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ];
 
-var mapNames = ['Sir Coddington','Castle','Arena','Saloon','Rift','Skull','Pig','Face','Vector','Rooms','Blockfield','Platforms'];
-var currentMap = 2;
+var mapNames = ['Arena','Rift','Castle','Skull','Platforms','Blockfield','Rooms',,'Saloon','Pig','Face','Vector','Sir Coddington'];
+var currentMap = 0;
 var map = maps[mapNames[currentMap]]; 
 
 //document.getElementById('a').innerHTML = "Map: " + mapNames[0];     

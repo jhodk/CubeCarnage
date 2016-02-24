@@ -115,7 +115,7 @@ function nextMap() {
             respawnPlayer(i);
             }
         gameTransitioning = false;
-        console.log(gameTransitioning);
+     
    }
    
    //reset position of player on death
@@ -390,4 +390,19 @@ function getFreeBullet(){
     return -1;
     }
     
+function setKeyboardPlayerFacing(n) {
+    
+    if(players[n].right){players[n].facing = 0;}
+    if(players[n].up){players[n].facing = -Math.PI/2;}
+    if(players[n].left){players[n].facing = -Math.PI;}
+    if(players[n].down){players[n].facing = Math.PI/2;}
+    if(players[n].right && players[n].up){players[n].facing = -Math.PI/4;}
+    if(players[n].right && players[n].down){players[n].facing = Math.PI/4;}
+    if(players[n].left && players[n].up){players[n].facing = -3*Math.PI/4;}
+     if(players[n].left && players[n].down){players[n].facing = 3*Math.PI/4;}
+    
+    
+    
+    
+    }
     

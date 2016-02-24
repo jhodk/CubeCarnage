@@ -20,7 +20,7 @@ function Player(x,y,maxHealth,col,size,primWeap){
     this.xmulti = 0;
     this.primWeap = primWeap;
     this.playerWhoLastHit = -1;
-
+    this.gamepad = false;
 }
 
 

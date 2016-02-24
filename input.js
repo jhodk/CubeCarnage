@@ -1,6 +1,7 @@
 
 window.addEventListener("keydown", function(e){
 
+
     switch(e.keyCode) {
        
         case 87:
@@ -11,32 +12,139 @@ window.addEventListener("keydown", function(e){
             break;
         case 65:
             players[0].left = true;
+            players[0].xmulti = 1;
             break;
         case 68:
             players[0].right = true;
+            players[0].xmulti = 1;
+            break;
+        case 90:
+            players[0].firingPrimary = true;
+            break;
+            
+            
+          case 73:
+            players[1].up = true;
+            
+            break;
+        case 75:
+            players[1].down = true;
+            break;
+        case 74:
+            players[1].left = true;
+              players[1].xmulti = 1;
+       
+            break;
+        case 76:
+            players[1].right = true;
+            players[1].xmulti = 1;
+            break;
+             case 77:
+        players[1].firingPrimary = true;
+            break;
+            
+            
+            case 38:
+            players[2].up = true;
+            
+            break;
+        case 40:
+            players[2].down = true;
+            break;
+        case 37:
+            players[2].left = true;
+              players[2].xmulti = 1;
+       
+            break;
+        case 39:
+            players[2].right = true;
+            players[2].xmulti = 1;
+            break;
+             case 32:
+        players[2].firingPrimary = true;
             break;
         
         }
+        for(var i = 0;i<players.length;i++){
+            
+    if(players[i].gamepad == false){setKeyboardPlayerFacing(i);}
+}
+        
         }
         );
         
 window.addEventListener("keyup", function(e){
+    
+    
     switch(e.keyCode) {
         
         case 87:
             players[0].up = false;
+            
             break;
         case 83:
             players[0].down = false;
             break;
         case 65:
             players[0].left = false;
+       
             break;
         case 68:
             players[0].right = false;
+          
+            break;
+             case 90:
+        players[0].firingPrimary = false;
+            break;
+            
+            
+        case 73:
+            players[1].up = false;
+            
+            break;
+        case 75:
+            players[1].down = false;
+            break;
+        case 74:
+            players[1].left = false;
+       
+            break;
+        case 76:
+            players[1].right = false;
+          
+            break;
+             case 77:
+        players[1].firingPrimary = false;
+            break;
+            
+        
+        case 38:
+            players[2].up = false;
+            
+            break;
+        case 40:
+            players[2].down = false;
+            break;
+        case 37:
+            players[2].left = false;
+              players[2].xmulti = 1;
+       
+            break;
+        case 39:
+            players[2].right = false;
+            players[2].xmulti = 1;
+            break;
+             case 32:
+        players[2].firingPrimary = false;
             break;
         
+        
         }
+        
+        for(var i = 0;i<players.length;i++){
+    if(players[i].gamepad == false){setKeyboardPlayerFacing(i);}
+}
+        
         }
         );
         
@@ -81,6 +189,7 @@ function updateStatus() {
   var j;
 
   for (j in controllers) {
+      
     var controller = controllers[j];
     a = controller.index;
     /*for (i = 0; i < controller.buttons.length; i++) {
@@ -134,6 +243,7 @@ function scangamepads() {
   var gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
   for (var i = 0; i < gamepads.length; i++) {
     if (gamepads[i]) {
+        players[i].gamepad = true;
       if (gamepads[i].index in controllers) {
         controllers[gamepads[i].index] = gamepads[i];
       } else {
