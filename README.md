@@ -12,5 +12,5 @@ Jump: X / w / i / up
 
 Fire: R1 / z / m / space
 
-[Play game here](https://cdn.rawgit.com/EncounterQ/Project1/master/game.html)
+[Play game here](http://cdn.rawgit.com/EncounterQ/Project1/master/game.html)
 (Best viewed in Chrome and best played with controllers)
