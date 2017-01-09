@@ -16,3 +16,8 @@ Fire: R1 / z / m / space
 (Best viewed in Chrome and best played with controllers)
 
 Download the required font here: http://www.dafont.com/youre-gone.font
+
+To Do List:
+
+- Menu system: Select players, levels, game mode, weapons, powerups
+- In-game map editor
