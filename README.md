@@ -13,7 +13,7 @@ Jump: X / w / i / up
 Fire: R1 / z / m / space
 
 [Play game here](http://cdn.rawgit.com/EncounterQ/Project1/master/game.html)
-(Best viewed in Chrome and best played with controllers)
+(Best viewed in Chrome, tested with PS3 controllers)
 
 Download the required font here: http://www.dafont.com/youre-gone.font
 
