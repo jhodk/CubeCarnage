@@ -21,3 +21,4 @@ To Do List:
 
 - Menu system: Select players, levels, game mode, weapons, powerups
 - In-game map editor
+- Multiplayer? Socket.io/node.js, would be awesome
