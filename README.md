@@ -12,7 +12,7 @@ Jump: X / w / i / up
 
 Fire: R1 / z / m / space
 
-[Play game here](http://cdn.rawgit.com/EncounterQ/Project1/master/game.html)
+[Play game here](https://raw.githack.com/jhodk/CubeCarnage/master/game.html)
 (Best viewed in Chrome, tested with PS3 controllers)
 
 Download the required font here: http://www.dafont.com/youre-gone.font
@@ -21,4 +21,4 @@ To Do List:
 
 - Menu system: Select players, levels, game mode, weapons, powerups
 - In-game map editor
-- Multiplayer? Socket.io/node.js, would be awesome
+- Multiplayer? Socket.io/node.js
