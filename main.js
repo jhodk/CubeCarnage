@@ -65,7 +65,7 @@ function main() {
           for(xx = 0; xx < players.length;xx++){
               ctx.globalAlpha = 0.7;
               ctx.fillStyle = players[xx].col;
-              ctx.font='80px "You\'re Gone"';
+              ctx.font='80px "You\'re Gone", Rockwell, Courier New';
               if(xx==0){ctx.fillText(players[xx].score.toString(), 75, 100);}
               if(xx==1){ctx.fillText(players[xx].score.toString(), 1325, 100);}
                if(xx==2){ctx.fillText(players[xx].score.toString(), 75, 800);}
