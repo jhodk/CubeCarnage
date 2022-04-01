@@ -20,10 +20,10 @@ var gameTransitioning = false;
 var gravity = 0.4;
 
 var sounds = [];
-sounds['hit'] = new Howl({urls:['https://raw.githubusercontent.com/EncounterQ/Project1/master/Hit_Hurt24.wav']});
-sounds['death'] = new Howl({urls:['https://raw.githubusercontent.com/EncounterQ/Project1/master/death.wav']});
-sounds['Snipershot'] = new Howl({urls:['https://raw.githubusercontent.com/EncounterQ/Project1/master/shot.wav']});
-sounds['Pistolshot']= new Howl({urls:['https://raw.githubusercontent.com/EncounterQ/Project1/master/pistolshot.wav']});
+sounds['hit'] = new Howl({urls:['https://github.com/jhodk/CubeCarnage/blob/master/Hit_Hurt24.wav?raw=1']});
+sounds['death'] = new Howl({urls:['https://github.com/jhodk/CubeCarnage/blob/master/death.wav?raw=1']});
+sounds['Snipershot'] = new Howl({urls:['https://github.com/jhodk/CubeCarnage/blob/master/shot.wav?raw=1']});
+sounds['Pistolshot']= new Howl({urls:['https://github.com/jhodk/CubeCarnage/blob/master/pistolshot.wav?raw=1']});
 sounds['Shotgunshot'] = sounds['Snipershot'];
 //define players
 
