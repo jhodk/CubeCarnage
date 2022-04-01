@@ -4,20 +4,12 @@ Cube Carnage
 A web-based local multiplayer game based on Square Brawl by LandFall Games.
 Using up to four gamepads, battle it out on a variety of arenas to become the quadrilateral king.
 
-Controls:
+[Play game](https://raw.githack.com/jhodk/CubeCarnage/master/game.html)
+(Best viewed in Chrome)
 
-Move: Left analog stick / wasd / ijkl/ up down left right
+Optional: Download recommended font http://www.dafont.com/youre-gone.font
 
-Jump: X / w / i / up
-
-Fire: R1 / z / m / space
-
-[Play game here](https://raw.githack.com/jhodk/CubeCarnage/master/game.html)
-(Best viewed in Chrome, tested with PS3 controllers)
-
-Download the required font here: http://www.dafont.com/youre-gone.font
-
-To Do List:
+To Do:
 
 - Menu system: Select players, levels, game mode, weapons, powerups
 - In-game map editor
