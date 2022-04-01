@@ -253,7 +253,7 @@ maps['Castle'] = ['...................................',
 '....XXXXXXXXXX..XXX..XXXXXXXXXX....',
 ];
 
-maps['Sir Coddington'] = ['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+maps['Wasteland'] = ['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 'X............................S....X',
 'X.................................X',
 'X.................................X',
@@ -276,8 +276,8 @@ maps['Sir Coddington'] = ['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ];
 
-var mapNames = ['Arena','Rift','Castle','Skull','Platforms','Blockfield','Rooms',,'Saloon','Pig','Face','Vector','Sir Coddington'];
-var currentMap = 0;
+var mapNames = ['Arena','Rift','Castle','Skull','Platforms','Blockfield','Rooms','Saloon','Pig','Face','Vector','Wasteland'];
+var currentMap = Math.floor(Math.random()*mapNames.length);
 var map = maps[mapNames[currentMap]]; 
 
 //document.getElementById('a').innerHTML = "Map: " + mapNames[0];     
