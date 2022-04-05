@@ -65,6 +65,7 @@ window.addEventListener("keydown", function(e){
             break;
              case 32:
         players[2].firingPrimary = true;
+            e.preventDefault();
             break;
         
         }
