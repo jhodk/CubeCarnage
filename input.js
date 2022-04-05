@@ -46,18 +46,21 @@ window.addEventListener("keydown", function(e){
             
             case 38:
             players[2].up = true;
-            
+            e.preventDefault();
             break;
         case 40:
             players[2].down = true;
+            e.preventDefault();
             break;
         case 37:
             players[2].left = true;
+            e.preventDefault();
               players[2].xmulti = 1;
        
             break;
         case 39:
             players[2].right = true;
+            e.preventDefault();
             players[2].xmulti = 1;
             break;
              case 32:
